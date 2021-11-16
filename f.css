@@ -1,10 +1,13 @@
 .container { width: 240px }
 body {
-width:1899px;
+display: block;
+width:100%;
 background: #f3e3ff;
 color: #000000;
 font-family: Trebuchet MS, Arial, Times New Roman;
 font-size: 12px;
+margin: 0;
+padding: 0;
 }
 #wrapper {
       background: #000000;
@@ -21,9 +24,8 @@ font-size: 12px;
       }
       h1 {
       position	: absolute;
-      top		: 200px;
-      left		: 10%;
-      width		: 100%;
+      top		: 150px;
+      margin: 50px;
       }
 #navigation {
   background: #f3e3ff;
@@ -31,6 +33,7 @@ font-size: 12px;
   height: 40px;
   background-image: url(img/ooo.gif);
   background-size: 1000px 19px;
+  padding-left: 10px;
       }
 #menu {
 
@@ -47,6 +50,8 @@ font-size: 12px;
   display:block;
   margin: auto;
 }
-#footer {
-
-      }
+.amd1 {
+  display: block;
+  margin: 0 auto;
+  
+}
