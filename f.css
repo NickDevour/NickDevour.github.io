@@ -2,19 +2,14 @@
 body {
 display: block;
 width:100%;
-background: #f3e3ff;
+background: #96b6ff;
 color: #000000;
 font-family: Trebuchet MS, Arial, Times New Roman;
 font-size: 12px;
 margin: 0;
 padding: 0;
 }
-#wrapper {
-      background: #000000;
-      margin: 60px auto;
-      width: 1600px;
-      height: 900px;
-      }
+
 #header {
 
       }
@@ -28,18 +23,17 @@ padding: 0;
       margin: 50px;
       }
 #navigation {
-  background: #f3e3ff;
-  width: 389px;
-  height: 40px;
-  background-image: url(img/ooo.gif);
-  background-size: 1000px 19px;
+  display: block;
+  background: #96b6ff;
+
   padding-left: 10px;
+  margin: 0;
       }
 #menu {
 
       }
 #content {
-  background: #f3e3ff;
+  background: #96b6ff;
   color: #000000;
   font-family: Trebuchet MS, Arial, Times New Roman;
   font-size: 20px;
@@ -47,6 +41,7 @@ padding: 0;
       h3 { text-align: center }
       h4 { text-align: center }
 .image {
-  display:block;
+  display: block;
   margin: 0 auto;
+  
 }
